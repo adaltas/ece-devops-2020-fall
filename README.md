@@ -1,0 +1,1 @@
+See [gatsby-theme-slidedeck](https://github.com/FLGMwt/gatsby-theme-slidedeck/blob/master/README.md) for documentation.

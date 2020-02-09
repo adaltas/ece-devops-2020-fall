@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-starter-slidedeck-theme",
+  "version": "1.0.0",
+  "description": "Gatsby starter for the `gatsby-theme-slidedeck` theme",
+  "main": "index.js",
+  "repository": "https://github.com/FLGMwt/gatsby-starter-slidedeck-theme",
+  "author": "Ryan Stelly <ryan.stelly@live.com> (@FLGMwt)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.13.45",
+    "gatsby-theme-slidedeck": "^1.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
