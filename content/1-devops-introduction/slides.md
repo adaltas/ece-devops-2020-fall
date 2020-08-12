@@ -2,33 +2,7 @@
 title: Introduction to DevOps
 ---
 
-# About
-
-Sergei Kudinov   
-Developer and Data Engineer at [Adaltas](https://www.adaltas.com/)   
-sergei@adaltas.com
-
-[Adaltas](https://www.adaltas.com/) (since 2004)   
-Big Data, DevOps & SRE, Development, Open Source
-
-gatsby-slide
-
-# We will talk about
-
-1. Introduction to DevOps
-2. Source Control Management (SCM) - Git
-3. Continuous Testing, Continuous Integration & Continuous Delivery (CI/CD) - Travis CI and Heroku
-4. Containers - Docker
-5. Containers orchestration - Docker Compose
-6. Containers orchestration - Kubernetes
-7. Microservices & Service mesh - Istio
-8. Infrastructure as code (IaC) - Ansible
-
-A project at the end of the course.
-
-gatsby-slide
-
-# DevOps
+## DevOps
 
 Is a culture, mindsets.
 
@@ -36,7 +10,7 @@ In 2014, we started speaking about DevOps (in [Site Reliability Engineering](htt
 
 gatsby-slide
 
-# What is DevOps?
+## What is DevOps?
 
 - Approach of Software engineering and release
 - Quick iterative process
@@ -47,7 +21,7 @@ gatsby-slide
 
 gatsby-slide
 
-# Why DevOps?
+## Why DevOps?
 
 - Faster Time To Market
 - Recovery time is reduced
@@ -58,16 +32,16 @@ gatsby-slide
 
 gatsby-slide
 
-# DevOps life cycle
+## DevOps life cycle
 
-- [Image 1](https://www.compuware.com/wp-content/uploads/2019/12/DevOps_Infinity_Loop-1024x506.png)
+- [Image 1](image/devops-cycle.png)
 - [Image 2](https://www.markerbench.com/assets/512px-Devops-toolchain-87517177fde0796fcddf9f6ef08da03a43bb973206101589d4bf0bf7f61960ad.png)
 
 [DevOps with GitLab](https://about.gitlab.com/stages-devops-lifecycle/)
 
 gatsby-slide
 
-# Site Reliability Engineering (SRE) principles
+## Site Reliability Engineering (SRE) principles
 
 **"Everything should be completely automated."**
 
@@ -80,7 +54,7 @@ Read:
 
 gatsby-slide
 
-# The Agile Manifesto
+## The Agile Manifesto
 
 We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
 
@@ -93,7 +67,7 @@ That is, while there is value in the items on the right, we value the items on t
 
 gatsby-slide
 
-# Agile Principles
+## Agile Principles
 
 - Customer satisfaction is top priority
 - Project requirements can change
@@ -110,7 +84,7 @@ gatsby-slide
 
 gatsby-slide
 
-# Scrum
+## Scrum
 
 - Light management method built on :
   - Transparency
@@ -120,10 +94,3 @@ gatsby-slide
 - The « Scrum Master » coaches the Dev Team
 - The « Product Owner » represents and interacts with the final client
 - Progression is tracked during the « Daily Scrum Meeting »
-
-# Resources
-
-- [Site Reliability Engineering](https://landing.google.com/sre/books/)
-- [Principles of Site Reliability Engineering at Google](https://medium.com/@jdavidmitchell/principles-of-site-reliability-engineering-at-google-8382b054e498)
-- [Site Reliability Engineering Principles](https://medium.com/@alexbmeng/site-reliability-engineering-principals-fd52229bfcd6)
-- [DevOps: Principles, Practices, and DevOps Engineer Role](https://www.altexsoft.com/blog/engineering/devops-principles-practices-and-devops-engineer-role/)

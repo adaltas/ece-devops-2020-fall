@@ -1,27 +1,41 @@
-# DevOps course
+# ECE DevOps course
 
-Materials for the DevOps course at the ECE.
+Materials for the DevOps course for ECE students.
 
-Modules:
+## Modules
 
-0. Prerequisites for the DevOps course
 1. Introduction to DevOps
-2. Source Control Management (SCM) - Git
-3. Continuous Testing, Continuous Integration & Continuous Delivery (CI/CD) - Travis CI and Heroku
-4. Containers - Docker
-5. Containers orchestration - Docker Compose
-6. Containers orchestration - Kubernetes
-7. Microservices & Service mesh - Istio
-8. Infrastructure as code (IaC) - Ansible
+2. Source Control Management (SCM) and supporting platforms
+3. Infrastructure as Code (IaC)
+4. Continuous testing
+5. Continuous integration and delivery (CI/CD)
+6. Containers with Docker
+7. Container orchestration
+8. Advanced Kubernetes
+9. Cloud native architecture
+10. DevOps in practice
+
+## Project
+
+// TODO: to complete
 
 ## Usage
 
-Slides content can be easily read right on GitHub in the [decks](decks) folder.
-You can also build slides and read them in a browser.
+Modules' materials are contained in the markdown files in the [content](content) folder.
+
+Each module folder contains following:
+
+- `index.md` file - description of the module
+- `labs.md` file - content of labs
+- `slides.md`file  - theory content
+- `assets` folder - materials for the labs
+- `image` folder - images used in the `.md` files
 
 ## Build slides
 
-This project uses [Gatsby.js](https://www.gatsbyjs.org/) framework and requires [Node.js](https://nodejs.org/en/) installed. To build and run slides on your local run:
+This project uses [Gatsby.js](https://www.gatsbyjs.org/) framework and requires [Node.js](https://nodejs.org/en/) installed. 
+
+To build and run slides in your browser run the commands:
 
 ```
 git clone https://github.com/adaltas/ece-devops-course.git
@@ -30,16 +44,7 @@ npm install
 npm run serve
 ```
 
-Then open in a browser `http://localhost:9000` (could be another port number).
-
-## Content
-
-- [decks](decks) - slide's content
-- [assets](assets) - materials and code examples
-
-## Project
-
-The description of the course project is here - [PROJECT.md](PROJECT.md)
+Then, open in a browser http://localhost:9000 (could be another port number).
 
 ## Author
 

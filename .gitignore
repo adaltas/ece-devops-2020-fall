@@ -1,10 +1,9 @@
 .cache
 node_modules
-!./assets/docker/website/public
 .*
 !.gitignore
 package-lock.json
-HINTS.md
 yarn.lock
 public
 conspects
+/decks
