@@ -11,18 +11,18 @@ Vagrant.configure("2") do |config|
   end
 
   # Define the gitlab_server VM
-  config.vm.define "docker_server" do |server|
+  config.vm.define "gitlab_server" do |server|
     # Specify the Vagrant box to use
     server.vm.box = "centos/7"
     # Specify the VM ip address
-    server.vm.network :private_network, ip: "30.30.30.3"
+    server.vm.network :private_network, ip: "20.20.20.2"
     # Specify the VM specs when using the Virtualbox provisioner
     server.vm.provider "virtualbox" do |vb|
-      vb.name =  "docker.server.local"
+      vb.name =  "gitlab.server.local"
       # VM RAM in MB
-      vb.memory = 4096
+      vb.memory = 2048
       # VM CPUs
-      vb.cpus = 2
+      vb.cpus = 1
     end
   end
 

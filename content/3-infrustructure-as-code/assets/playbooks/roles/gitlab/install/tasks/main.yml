@@ -1,0 +1,48 @@
+---
+- name: Install required packages
+  yum:
+    name:
+      - curl
+      - policycoreutils-python
+      - openssh-server
+    state: latest
+
+- name: Enable and start sshd
+  service:
+    name: sshd
+    state: started
+    enabled: yes
+
+- name: Enable HTTP+HTTPS access
+  firewalld:
+    # This is how we use a variable
+    service: "{{ item }}"
+    permanent: yes
+    state: enabled
+  # The module will be run for each item
+  with_items:
+    - http
+    - https
+
+# - name: Reload firewalld
+#   COMPLETE HERE
+
+# - name: Install postfix
+#   COMPLETE HERE
+
+# - name: Enable and start postfix
+#   COMPLETE HERE
+
+# - name: Download GitLab package script
+#   COMPLETE HERE
+#   TIP: Use the get_url module to download the script.rpm.sh
+
+# - name: Execute GitLab package script
+#   COMPLETE HERE
+#   TIP: Use the script module to run the script.rpm.sh
+
+- name: Install GitLab
+  yum:
+    name: gitlab-ee
+  environment:
+    EXTERNAL_URL: http://gitlab.local

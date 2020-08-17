@@ -1,10 +1,11 @@
 ---
-- hosts: docker_server
+- hosts: gitlab_server
   # Run commands as root
   become: true
   # Roles to be executed on these hosts
   roles:
-  - role: docker/install
+  - role: gitlab/install
     tags: install
-  - role: docker/run
-    tags: run
+
+  - role: gitlab/healthchecks
+    tags: check
