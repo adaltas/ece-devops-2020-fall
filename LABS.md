@@ -9,13 +9,6 @@
 
 Creating a well structured and documented project.
 
-**Comments:**
-
-1. In the next labs this project will be upgraded to a simple UserAPI application with CRUD user operations, little API and Redis storage
-2. I made my choice to include Redis for following reasons:
-    - It will be useful to represent in practice different types of tests (unit, API, integration) and Container Orchestration with 2 containers
-    - It is super easy to learn and apply (3 lines of code + understand redis-cli)
-
 ## Module 2: Source control and supporting platforms
 
 1. Manipulate a git repo with the existing project (create repo on GitLab or GitHub, branches, tags, merging, rebase and so on)
@@ -33,12 +26,6 @@ Advanced Git usage and project management with GitLab.
 **Achieved results:**
 
 Automating infrastructure deployment.
-
-**Comments:**
-
-I propose 2 options for the step 2:
-  - Install NodeJs and Redis (and run the UserAPI app)
-  - Or GitLab installation
 
 ## Module 4: Continuous testing
 
@@ -94,10 +81,6 @@ Using Kubernetes and running a real application on it.
 ## Module 9: Cloud native architecture
 
 // TODO: complete the section
-
-**Comments:**
-
-I was thinking about service mesh with Istio (to show a canary deployment and load balancing). What are your proposals?
 
 ## Module 10: DevOps in practice
 
