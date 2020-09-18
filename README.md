@@ -7,7 +7,7 @@ Materials for the DevOps course for ECE students.
 1. [Introduction to DevOps](modules/1-devops-introduction)
 2. [Source Control Management (SCM)](modules/2-scm)
 3. [Infrastructure as Code (IaC)](modules/3-infrustructure-as-code)
-4. Continuous testing
+4. [Continuous testing](modules/4-continuous-testing)
 5. Continuous integration and delivery (CI/CD)
 6. Containers with Docker
 7. Container orchestration with Kubernetes
