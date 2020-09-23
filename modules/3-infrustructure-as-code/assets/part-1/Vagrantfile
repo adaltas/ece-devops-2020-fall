@@ -30,8 +30,8 @@ Vagrant.configure("2") do |config|
     end
   end
   
-  # Start provisioning
-  config.vm.provision "shell",
-    inline: "echo Hello, World"
+# Start provisioning
+config.vm.provision "shell",
+  inline: "echo '127.0.0.1  mydomain-1.local' >> /etc/hosts"
 
 end
