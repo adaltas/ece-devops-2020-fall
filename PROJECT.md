@@ -1,7 +1,5 @@
 # Project (NOT FINAL!)
 
-**NOTE! This is not the final version of the project description. It can be updated until December 2020.**
-
 ## Deadline
 
 To be set ...
@@ -135,7 +133,7 @@ List of bonus tasks proposed:
 
 After you have sent the invitation, send an email to [sergei@adaltas.com](mailto:sergei@adaltas.com) containing following:
 
-  - **Subject format:** "ECE - DevOps project - \<LASTNAME Firstname\> - \<Group number\>"
+  - **Subject format:** "ECE - DevOps project - \<LASTNAME Firstname\> - \<Group number (ex: SI03)\>"
   - **Message:**
     - **The link to the repository** on GitHub/GitLab
     - List of authors and **the group number**
