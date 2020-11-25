@@ -17,7 +17,7 @@
 - **Saves the money on hardware, “pay as you go”**
 - **Increased collaboration**   
   Team members can work anywhere.
-- **Сompetitive advantage**
+- **Сompetitive advantage**   
   Small business have access to enterprise-class technology it couldn’t afford on its own.
 
 [Read more](https://www.pointclick.net/moving-to-the-cloud/)
@@ -31,7 +31,7 @@
 
 Match services yourself: DigitalOcean, Wix, Heroku, Shopify, Amazon Web Services (AWS), Salesforce, Google Cloud Platform (GCP), GitHub, Youtube, GitLab, Travis CI, IBM cloud, Trello.
 
-[Read more](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/_
+[Read more](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/_)
 
 ## What are cloud-native applications?
 
