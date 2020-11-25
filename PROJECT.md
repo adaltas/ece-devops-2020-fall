@@ -1,6 +1,4 @@
-# Project (NOT FINAL!)
-
-**NOTE! This is not the final version of the project description. It can be updated until December 2020.**
+# Project
 
 ## Deadline
 
@@ -135,7 +133,7 @@ List of bonus tasks proposed:
 
 After you have sent the invitation, send an email to [sergei@adaltas.com](mailto:sergei@adaltas.com) containing following:
 
-  - **Subject format:** "ECE - DevOps project - \<LASTNAME Firstname\> - \<Group number\>"
+  - **Subject format:** "ECE - DevOps project - \<LASTNAME Firstname\> - \<Group number (ex: SI03)\>"
   - **Message:**
     - **The link to the repository** on GitHub/GitLab
     - List of authors and **the group number**
@@ -149,8 +147,8 @@ After you have sent the invitation, send an email to [sergei@adaltas.com](mailto
 | Containerisation with Docker                                    |   D       |    +1     |
 | Orchestration with Docker Compose                               |   DC      |    +2     |
 | Orchestration with Kubernetes	                                  |   KUB     |    +4     |
-| Service mesh using Istio                                        |   IST     |    +3     |
-| Infrastructure as code using Ansible                            |   IAC     |    +3     |
+| Service mesh using Istio                                        |   IST     |    +2     |
+| Infrastructure as code using Ansible                            |   IAC     |    +4     |
 | Accurate project documentation in README.md file                |   DOC     |    +3     |
 | Each bonus tasks                                                |   BNS     |    +1     |
 
