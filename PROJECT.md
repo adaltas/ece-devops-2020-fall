@@ -2,7 +2,7 @@
 
 ## Deadline
 
-To be set ...
+**December 20, 2020**
 
 ## Opportunities
 
