@@ -8,7 +8,7 @@
 
 **Continuous Integration (CI)** - a practice in which members of a team integrate their work frequently.
 
-**Continuous Delivery (CD)** - a discipline where software is built in a manner that allows for **deploying** to customers at any time.
+**Continuous Delivery (CD)** - a discipline where software is built in a manner that allows **deploying** to customers at any time.
 
 **Continuous Deployment (CD)** - this **extends Continuous Delivery** by automating the deployment process so that code is automatically deployed to production after it passes automated testing.
 
@@ -42,7 +42,7 @@
 
 Takes care of the work (that you would otherwise need to perform manually):
 
-- previewing a in-development site
+- previewing an in-development site
 - testing a new code
 - deploying it to a production server
 
@@ -77,14 +77,14 @@ Registry types:
 Examples of installing packages from a registry for using them in a project:
 ```bash
 # For NodeJS
-npm install PACKAGE_NAME
+npm install <PACKAGE_NAME>
 
 # For Java
-mvn install PACKAGE_NAME
+mvn install <PACKAGE_NAME>
 
 # For Python
-pip install PACKAGE_NAME
-pip3 install PACKAGE_NAME
+pip install <PACKAGE_NAME>
+pip3 install <PACKAGE_NAME>
 ```
 
 ### Example public Image registry

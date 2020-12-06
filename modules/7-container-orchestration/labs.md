@@ -70,7 +70,7 @@ minikube status
    kubectl expose deployments/$DEPLOYMENT_NAME --type="NodePort" --port $PORT_NUMBER
    ```
    **Hint** You need to replace `$DEPLOYMENT_NAME` with the actual name of the `deployment` as well as `$PORT_NUMBER`
-2. Find out on which port the service has been attached to with:
+2. Find out on which port the service has been attached with:
    ```
    kubectl get services
    ```
@@ -78,7 +78,7 @@ minikube status
    ```
    minikube ip
    ```
-4. Using the answers of questions 2. and 3., open your web browser and try to reach the web app.
+4. Using the answers of questions 2 and 3, open your web browser and try to reach the web app.
 
 **Note!** If you are using Docker driver in Minikube, you must create a tunnel to the cluster node (that is running as a Docker container). Run the command (replace `$SERVICE_NAME` with your service name):
 
@@ -93,11 +93,11 @@ minikube service $SERVICE_NAME
   kubectl scale deployments/kubernetes-bootcamp --replicas=5
   ```
 
-2. Make sure that you have 5 pods running using one the commands we have seen the part 2 of the lab. Which command did you use?
+2. Make sure that you have 5 pods running using one of the commands we have seen in part 2 of the lab. Which command did you use?
 
 3. Open the exposed service through your web browser again.
    Force refresh a couple times using `CTRL+F5`
-   What is happening happen? Why?
+   What is happening? Why?
    
 4. Scale down again your deployment to 2 pods and confirm the other 3 are not running anymore.
 
@@ -110,12 +110,12 @@ minikube service $SERVICE_NAME
    ```
 3. What happened to the web page?
 4. Update the Docker image used by the `deployment` again by setting the image to `jocatalin/kubernetes-bootcamp:v3`
-5. List all the running pods, what is happening here?
+5. List all of the running pods, what is happening here?
 6. Cancel the previous operation by running:
    ```
    kubectl rollout undo deployments/kubernetes-bootcamp
    ```
-7. Rollback the service to the image we first chose in the part 2 of the lab.
+7. Rollback the service to the image we first chose in part 2 of the lab.
 
 ## 6. Deploy an app using Manifest yaml files
 
@@ -124,7 +124,7 @@ minikube service $SERVICE_NAME
    kubectl delete service $SERVICE_NAME
    kubectl delete deployment $DEPLOYMENT_NAME
    ```
-2. Using the [deployment documentation](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/), fill out the blank (`TO COMPLETE #1`) in [`./assets/deployment.yaml`](./assets/deployment.yaml) to define a deployment based on the one we run in part 2.
+2. Using the [deployment documentation](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/), fill out the blank (`TO COMPLETE #1`) in [`./assets/deployment.yaml`](./assets/deployment.yaml) to define a deployment based on the one we ran in part 2.
 3. Once you completed the file, run:
    ```
    kubectl apply -f deployment.yaml
@@ -136,9 +136,9 @@ minikube service $SERVICE_NAME
    kubectl apply -f service.yaml
    ```
    Can you access the service through your web browser?
-6. Fill out `TO COMPLETE #2` inside [`./assets/deployment.yaml`](./assets/deployment.yaml) to create 3 replicas your app.
+6. Fill out `TO COMPLETE #2` inside [`./assets/deployment.yaml`](./assets/deployment.yaml) to create 3 replicas of your app.
 7. Once you completed the file, run:
    ```
    kubectl apply -f deployment.yaml
    ```
-   Force refresh on the browser a couple times. Are you hitting different replicas?
+   Force refresh on the browser a couple of times. Are you hitting different replicas?

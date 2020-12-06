@@ -24,7 +24,7 @@ Infrastructure as code (IaC) is a type of IT setup wherein developers or operati
 
 ## Homework
 
-1. Make GitLab healthcheck
+1. Make GitLab health check
 
 [Go to the assignment description](homework.md)
 

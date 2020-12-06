@@ -81,7 +81,7 @@ Consists of:
 
 Example of `.yaml` (or `.yml`) file:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -106,7 +106,7 @@ You describe a **desired state** in a Deployment, and the Deployment Controller 
 
 Example:
 
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -138,7 +138,7 @@ With Kubernetes you don't need to modify your application to use an unfamiliar s
 
 Example:
 
-```
+```yaml
 apiVersion: v1
 kind: Service
 metadata:
@@ -197,7 +197,7 @@ project/k8s/development
 
 Kubernetes volumes:
 - similar to Docker volumes
-- samy types supported
+- many types supported
 
 Volume types:
 - `emptyDir` - ephemeral (exist as long as Pod is running on that Node)

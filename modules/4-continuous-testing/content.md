@@ -15,7 +15,7 @@
 
 - Lowest level of testing
 - Test an individual unit (or function) of a software
-- Tests are run in very controlled environment
+- Tests are run in very controlled environments
 - 90-100% test coverage
 
 **Functional:**
@@ -45,7 +45,7 @@
 
 ![Test coverage](image/test-pyramid.png)
 
-## Test driven development (TDD)
+## Test-driven development (TDD)
 
 ![TDD process](image/tdd.png)
 
@@ -60,8 +60,8 @@
 ## Test automation
 
 - Run tests on a server with specific configuration specified in your tests
-- Run the tests on different version of the code
-  - Condition for PullRequest merge
+- Run the tests on different versions of the code
+  - Condition for Pull Request merge
   - On each commit
 - Run on your own server
 
@@ -74,7 +74,7 @@
   - Cleanup
   
 2. Avoid anti-patterns:
-  - test case depend on the system state form the previous test
+  - test case depend on the system state from the previous test
   - dependencies between test cases
-  - don't inspects more than necessary
+  - don't inspect more than necessary
   - slow running tests

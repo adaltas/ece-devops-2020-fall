@@ -40,13 +40,13 @@ Before you can start the lab, you have to:
 1. Open [`hello-world-docker`](assets/hello-world-docker) directory and check out the `server.js`, `package.json` and `Dockerfile` files
 2. Check out the explanations for each line in the Dockerfile from [the documentation](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#dockerfile-instructions) 
 3. Build the docker container   
-  1. Open a terminal (Cmd or Powershell for Windows)
+  1. Open a terminal (CMD or PowerShell for Windows)
   2. Navigate to the `hello-world-docker` directory in the cloned repository
   3. Run the following command:
      ```
      docker build -t hello-world-docker .
      ```
-     - Don't forge the `.` at the end of the command. It is here to tell Docker it should look for `Dockerfile` in the current directory. 
+     - Don't forget the `.` at the end of the command. It is here to tell Docker it should look for the `Dockerfile` in the current directory. 
      - `-t` tag - to built container with the name you want (here `hello-world-docker`)
 4. Check if your Docker container appears in the local Docker images:
    ```
@@ -79,7 +79,7 @@ Before you can start the lab, you have to:
 ## 4. Share your Docker container with a classmate
 
 1. Modify the message printed in the `server.js` (you can add your name for example)
-2. Rebuild the Docker container (with a different name) with this modified code and see if you can run it and navigate to the web app in your browser
+2. Rebuild the Docker container (with a different name) with this modified code and see if you can run it, then navigate to the web app in your browser
 3. Register on [Docker Hub](https://hub.docker.com/)
 4. Tag your container with the following command:
    ```
@@ -103,10 +103,10 @@ Before you can start the lab, you have to:
 
 ## 5. Build and run a multiple container app with Docker Compose
 
-1. Docker Compose should be included in your Docker installation (on Windows and Mac at least), if not install it using the official [instructions](https://docs.docker.com/compose/install/).
+1. Docker Compose should be included in your Docker installation (on Windows and Mac at least). If not, install it using the official [instructions](https://docs.docker.com/compose/install/).
 2. Navigate to the [`hello-world-docker-compose`](assets/hello-world-docker-compose) directory and check out the `dbClient.js`, `server.js`, `package.json` and `Dockerfile` files.
 3. Build the Docker image inside this directory with the name on your choice
-4. Fill the missing part of the `docker-compose.yaml` file to make it use the container you just built. You can take an inspiration from [that example](content.md#docker-compose-example).
+4. Fill the missing part of the `docker-compose.yaml` file to make it use the container you just built. You can take inspiration from [that example](content.md#docker-compose-example).
 5. Start the containers with `docker-compose up`
 6. Visit `localhost:5000` in your web browser and hit refresh a couple times
 7. Stop the containers by running `CTRL+C` in the previous terminal

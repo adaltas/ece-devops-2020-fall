@@ -2,8 +2,8 @@
 
 ## DevOps
 
-- **DevOps** is a culture of human communication, technical processes, and tools
-- **DevOps** is breaking barriers between Developers and Operations by automating the processes, in order that they can build, test, and release software faster and more reliably.
+- **DevOps** is a culture of human communication, technical processes and tools
+- **DevOps** is breaking barriers between Developers and Operations by automating processes, in order to build, test, and release software faster and more reliably.
 
 ## Why DevOps?
 
@@ -20,21 +20,21 @@
 
 ## Site Reliability Engineering (SRE) implements DevOps
 
-| DevOps                        | SRE                     |
-| ----------------------------- | ----------------------  |
-| Reduce organization silos     | Using the same tools and techniques |
-| Accept failure as normal      | Have a formula for balancing accidents and failures against new releases  |
-| Implement gradual change      | Encourage moving quickly by reducing costs of failure |
-| Leverage tooling & automation | Minimizing manual systems work to focus on efforts that bring long-term value to the system  |
-| Measure everything            | Measuring availability, uptime, outages, toil, etc. |
+| DevOps                        | SRE                                                                                         |
+| ----------------------------- | ------------------------------------------------------------------------------------------- |
+| Reduce organization silos     | Using the same tools and techniques                                                         |
+| Accept failure as normal      | Have a formula for balancing accidents and failures against new releases                    |
+| Implement gradual change      | Encourage moving quickly by reducing costs of failure                                       |
+| Leverage tooling & automation | Minimizing manual systems work to focus on efforts that bring long-term value to the system |
+| Measure everything            | Measuring availability, uptime, outages, toil, etc.                                         |
 
 ## SRE
 
-- **Service Level Indicators (SLI)**   
+- **Service Level Indicators (SLI)**  
   Metrics over time (latency, throughput of requests per second, or failures per request)
-- **Service Level Objectives (SLO)**   
+- **Service Level Objectives (SLO)**  
   Targets for the cumulative success of SLIs over a period ("last 30 days" or "this quarter")
-- **Service Level Agreement (SLA)**   
+- **Service Level Agreement (SLA)**  
   Promise by a service provider to a service customer about availability. Usually less than SLO.
 
 ## Site Reliability Engineering (SRE) tools
@@ -47,14 +47,14 @@
 
 - Companies were focused on planning and documenting their software development cycles
 - Agile Manifesto in 2001 - https://agilemanifesto.org/
-- Agile principals were applied to software development
+- Agile principles were applied to software development
 - In 2014, we started speaking about DevOps (in [Site Reliability Engineering](https://landing.google.com/sre/books/))
 
 [Read more](https://www.atlassian.com/agile/manifesto)
 
-## Agile vs Whaterfall
+## Agile vs Waterfall
 
-![Agile vs Whaterfall](image/waterfall-and-agile-methods.jpg)
+![Agile vs Waterfall](image/waterfall-and-agile-methods.jpg)
 
 ## The Agile Manifesto
 
@@ -81,7 +81,7 @@ That is, while there is value in the items on the right, we value the items on t
 - Project pace should be sustainable and be maintained
 - Pay attention to technical aspects and design
 - Keep it simple
-- Teams should be self-organised
+- Teams should be self-organized
 - Reflect on the progress and process used regularly
 
 ## Scrum
@@ -100,19 +100,19 @@ That is, while there is value in the items on the right, we value the items on t
 
 **Consists of:**
 
-- Scrum Teams and and their roles
+- Scrum Teams and their roles
 - events
 - artifacts
 - rules
 
 **Built on:**
 
-- Transparency   
+- Transparency  
   Significant aspects of the process must be visible to those responsible for the outcome
-- Inspection   
+- Inspection  
   Scrum users must frequently inspect Scrum artifacts and progress toward a Sprint Goal to detect undesirable variances
 - Adaptation
-  
+
 ## Scrum
 
 ![Scrum Framework](image/scrum-framework.png)
@@ -122,15 +122,16 @@ That is, while there is value in the items on the right, we value the items on t
 Formula: `MAJOR.MINOR.PATCH-LABEL`
 
 Examples:
+
 ```
 2.3.1
 1.0.0-alpha
 1.0.0-beta
 ```
 
-`MAJOR` - version when you make incompatible API changes,
-`MINOR` - version when you add functionality in a backwards compatible manner, and
-`PATCH` - version when you make backwards compatible bug fixes.
-`LABEL` - for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+- `MAJOR` - version when you make incompatible API changes,
+- `MINOR` - version when you add functionality in a backwards compatible manner,
+- `PATCH` - version when you make backwards compatible bug fixes,
+- `LABEL` - for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 [Read more about SemVer](https://semver.org/)

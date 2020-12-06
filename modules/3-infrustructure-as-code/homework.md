@@ -2,7 +2,7 @@
 
 ## 1. Read the [GitLab Health Check doc](https://docs.gitlab.com/ee/user/admin_area/monitoring/health_check.html)
 
-## 2. Run a healthcheck using `curl`:
+## 2. Run a health check using `curl`:
    
    1. Connect to the VM using `vagrant ssh`
    2. Run the command:
@@ -22,7 +22,7 @@
       
 ## 5. Run the 2 other kind of health checks in the playbook (using the [uri module](https://docs.ansible.com/ansible/latest/modules/uri_module.html)):
    
-   1. [Readiness check](https://docs.gitlab.com/ee/user/admin_area/monitoring/health_check.html#readiness).
+   1. [Readiness check](https://docs.gitlab.com/ee/user/admin_area/monitoring/health_check.html#readiness)
    2. [Liveness check](https://docs.gitlab.com/ee/user/admin_area/monitoring/health_check.html#liveness)
 
 ## 6. Print the results of the health checks in the console

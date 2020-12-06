@@ -6,7 +6,7 @@
 
 ## Opportunities
 
-1. The DevOps project is based on all the labs passed during the course, it is allowed to use them.
+1. The DevOps project is based on all of the labs passed during the course, it is allowed to use them.
 
 2. Work on the project can be carried out by 1 student or a team of 2 or a **maximum of 3 students**.
 
@@ -16,7 +16,7 @@
 
 ### 1. Create a web application
 
-Create a web application on any programming language (NodeJS, Java, Ruby, Python etc.), storing data in a database (Redis, MonogoDB, MySQL, ...) and cover it with tests of different levels.
+Create a web application on any programming language (NodeJS, Java, Ruby, Python etc.), storing data in a database (Redis, MongoDB, MySQL, ...) and cover it with tests of different levels.
 
 **Are proposed:**
 
@@ -30,7 +30,7 @@ Create a web application on any programming language (NodeJS, Java, Ruby, Python
 
 Configure and apply CI/CD (including deployment) pipeline using any platforms (GitLab CI/CD, Jenkins, Travis CI, Netlify, Heroku etc.).
 
-**Note!** If the chosen deployment platform (like Heroku) requires any subscription to make use their database service to connect to your app, then you can skip usage this service. In this case you application won't be running properly, but it must successfully display the homepage. 
+**Note!** If the chosen deployment platform (like Heroku) requires a subscription to make use of their database service to connect to your app, then you can skip using this service. In this case you application won't be running properly, but it must successfully display the homepage. 
 
 ### 3. Configure and provision a virtual environment and run your application using IaC approach
 
@@ -40,7 +40,7 @@ Configure and apply CI/CD (including deployment) pipeline using any platforms (G
   - database
   - Git (optional, if you choose to clone the repository from GitHub/GitLab, you have to set up ssh forwarding because of private repository)
   - your application (clone from GitHub/GitLab, or copy local source files to a VM, or [sync folders](https://www.vagrantup.com/docs/synced-folders))
-  - healthcheck of your application
+  - health check of your application
 
 ### 4. Build Docker image of your application
 
@@ -87,7 +87,7 @@ Configure and apply CI/CD (including deployment) pipeline using any platforms (G
 
 5. Other additional info that you want to include
 
-**Note!** Use correct Markdown syntax to keep your readme file looking good.
+**Note!** Use correct Markdown syntax to keep your `README.md` file looking good.
 
 ## Structure
 

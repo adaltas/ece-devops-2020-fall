@@ -10,10 +10,10 @@ Cloud-native is a term used to describe container-based environments. Cloud-nati
 
 ## Covered topics
 
-- What is Cloud
-- Why business is moving to the Cloud
+- What is Cloud?
+- Why business is moving to the Cloud?
 - Service models
-- What are cloud-native applications
+- What are cloud-native applications?
 - Monolithic vs Microservices architecture
 - Service mesh
 

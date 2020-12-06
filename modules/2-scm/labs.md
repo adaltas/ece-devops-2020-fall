@@ -4,9 +4,9 @@ Introduction to Git
 
 ## Objectives
 
-This workshop can be done **in groups of 2/3 people**.
+This workshop can be done **in groups of 2-3 people**.
 
-1. Perform the Github Desktop Tutorial
+1. Perform the GitHub Desktop Tutorial
 2. Create a repository and clone it on your computer
 3. Create a branch and navigate between branches
 4. Modify a file in the repository and push the modifications
@@ -14,16 +14,16 @@ This workshop can be done **in groups of 2/3 people**.
 
 ## Before starting
 
-1. Create a Github account: https://github.com/
-2. Install Github Desktop from this url: https://desktop.github.com/
+1. Create a GitHub account: https://github.com/
+2. Install GitHub Desktop from this url: https://desktop.github.com/
 3. Install an IDE or text editor (ex: https://code.visualstudio.com/ or https://atom.io/)
 
-## 1. Perform the Github Desktop Tutorial
+## 1. Perform the GitHub Desktop Tutorial
 
-1. Launch Github Desktop
-2. Start the Github Desktop Tutorial by clicking "Create a Tutorial Repository ..." and follow the instructions
+1. Launch GitHub Desktop
+2. Start the GitHub Desktop Tutorial by clicking "Create a Tutorial Repository ..." and follow the instructions
 
-![Github Desktop Tutorial](image/github-tutorial.png)
+![GitHub Desktop Tutorial](image/github-tutorial.png)
 
 ## 2. Create a repository and clone it on your computer
 
@@ -41,7 +41,7 @@ This workshop can be done **in groups of 2/3 people**.
 
 **All group members** clone the repository:
 
-6. Open Github Desktop
+6. Open GitHub Desktop
 7. Click on **"Clone a repository from the Internet"**
 8. **GitHub.com** → Filter your repositories
 10. Click on “Clone”
@@ -52,7 +52,7 @@ You now have a copy of the local repository
 
 **A single member** of the group creates the `develop` branch:
 
-1. In Github Desktop: **Current branch → New branch**
+1. In GitHub Desktop: **Current branch → New branch**
 
 ![Create a branch](image/branch.png)
 
@@ -67,7 +67,7 @@ You can now navigate (= checkout) between the master and develop branches.
 1. Modify the **"README.md"** file entirely:
   - Open the repository in your IDE
   - Replace the entire contents of the **"README.md"** file
-2. In Github Desktop:
+2. In GitHub Desktop:
   - Choose a commit message ("Summary")
   - Click on **"Commit to develop"**
   - Use **"Publish branch"** to push your changes to the remote repository
@@ -95,13 +95,13 @@ Alternately, each member merges the new branches into `develop`:
 7. Select branch
 8. Push your changes
 9. **The 2nd member** of the group will encounter a conflict:
-  - Open your IDE as suggested by Github Desktop
+  - Open your IDE as suggested by GitHub Desktop
   - The conflict materialize as follows:
   
   ![Merge conflict](image/merge.png)
 
   - To resolve the conflict, keep either the `HEAD` part, or the `dev-firstname` part and delete the other lines (including the `====` and `>>>>` lines)
-  - Once the lines are deleted you can commit the merge from Github Desktop:
+  - Once the lines are deleted you can commit the merge from GitHub Desktop:
 
   ![Resolve conflict](image/resolve-conflict.png)
 
@@ -117,7 +117,7 @@ For the installation:
 
 You can now open Terminal (on Linux or MacOS) or Git Bash (on Windows).
 
-You can find a detailed list of the different GIT CLI commands:
+You can find a detailed list of the different Git CLI commands:
 - https://gist.github.com/aquelito/8596717
 - https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 
