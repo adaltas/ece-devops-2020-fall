@@ -151,6 +151,7 @@ After you have sent the invitation, send an email to [sergei@adaltas.com](mailto
 | Infrastructure as code using Ansible                            |   IAC     |    +3     |
 | Accurate project documentation in README.md file                |   DOC     |    +3     |
 | Each bonus tasks                                                |   BNS     |    +1     |
+| Each penalty                                                    |   PNL     |    -1     |
 
 It is also taken into account:
 
