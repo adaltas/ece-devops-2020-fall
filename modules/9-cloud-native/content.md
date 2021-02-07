@@ -2,9 +2,9 @@
 
 ## What is Cloud?
 
-- remote data centres
+- remote data centers
 - offers software or hardware to a business or individual
-- you can access through the Internet
+- you can access it through the Internet
 
 ## Why business is moving to the Cloud?
 
@@ -13,12 +13,12 @@
 - **Security**   
   Implement effective disaster recovery solutions without large, upfront investments.
 - **Automatic software and hardware updates**   
-  The servers and maintained by your supplier.
-- **Saves the money on hardware, “pay as you go”**
+  The servers are maintained by your supplier.
+- **Saves money on hardware, “pay as you go”**
 - **Increased collaboration**   
   Team members can work anywhere.
 - **Сompetitive advantage**   
-  Small business have access to enterprise-class technology it couldn’t afford on its own.
+  Small businesses have access to enterprise-class technology it couldn’t afford on its own.
 
 [Read more](https://www.pointclick.net/moving-to-the-cloud/)
 
@@ -37,7 +37,7 @@ Match services yourself: DigitalOcean, Wix, Heroku, Shopify, Amazon Web Services
 
 Cloud-native applications are:
 - a collection of small, independent, and loosely coupled services
-- provide a consistent development and automated management
+- providing a consistent development and automated management
 - designed to run in the cloud.
 
 **Key attributes of cloud-native:**
@@ -72,7 +72,7 @@ Cloud-native applications are:
 - owned by a small team
 - sourced as a separate Git repo with its own tests
 
-**Monolithic** - a style where single-tiered software application in which different components combined into a single program from a single platform.
+**Monolithic** - a style where a single-tiered software application in which different components are combined into a single program from a single platform.
 
 ## Application centered around APIs
 
@@ -115,7 +115,7 @@ Platforms implementing service mesh:
 
 ![Istio architecture](image/istio.png)
 
-## What you can do with Istio?
+## What can you do with Istio?
 
 Istio provides operational requirements:
 

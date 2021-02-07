@@ -16,7 +16,7 @@ Source control management (SCM) refers to tools that help you keep track of your
 
 ## What do you manage?
 
-- Code, or any **text based** projects (like all the configuration needed for the project)
+- Code, or any **text based** projects (like all the configurations needed for the project)
 - Manage project versions
   - Global project version (tags)
   - Each modification is a «version»
@@ -26,7 +26,7 @@ Source control management (SCM) refers to tools that help you keep track of your
 
 ### Centralized
 
-  - has single central repository
+  - has a single central repository
   - single point of failure
   - requires a network to inspect a history
   
@@ -55,11 +55,11 @@ Learn git - https://git-scm.com/doc
 ## Git: branches
 
 - **Branches** - independent set of commits
-- So far all the commits are on the **master** branch
+- So far all commits are on the **master** branch
 - Branch can be an abstraction for line of development
   - **master** is the stable, tested version of the project
   - **develop** is the place where features come together
-  - **feature** is the branch for single feature
+  - **feature** is the branch for a single feature
 
 Branch can be temporary:
   - To have a change request
@@ -92,7 +92,7 @@ So far:
   - Abandon your changes (and put them back later)
   - Work on the latest commit (git pull) and have a good task repartition
 
-## Git: merge vs Rebase
+## Git: merge vs rebase
 
 ![Merge vs Rebase](image/merge-vs-rebase.png)
 

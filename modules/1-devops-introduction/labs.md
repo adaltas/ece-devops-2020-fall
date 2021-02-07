@@ -1,15 +1,15 @@
 # Labs
 
-The goal of this practical work is to learn the proper way of creating an IT project using **best practices**. This is important since the core of implementing DevOps to companies processes is writing a clean and high quality source code as well as its documenting.
+The goal of this practical work is to learn the proper way of creating an IT project using **best practices**. This is important since the core of implementing DevOps to companies' processes is writing a clean and high-quality source code as well as documenting it.
 
-As an example programming language, we will use JavaScript with its server side runtime - [NodeJS](https://nodejs.org/en/), because it is one of the most popular languages for building different types of applications and it's very easy to get started with it. You are not obliged to use only NodeJS for these labs, you are allowed to repeat similar steps using any other programming language like Java, C++, Python or up to your choice, but realisation of these steps will be different for the specific runtime.
+As a programming language example, we will use JavaScript with its server-side runtime - [NodeJS](https://nodejs.org/en/), because it is one of the most popular languages for building different types of applications and it's very easy to get started with. You are not obliged to only use NodeJS for these labs, you are allowed to repeat similar steps using any other programming language of your choosing like Java, C++ or Python, but each of these steps will be different for the specific runtime.
 
 ## Objectives
 
 1. Start a project
 2. Initialize a NodeJS package
 3. Create a NodeJS script
-4. Create a web application using ExpressJS package
+4. Create a web application using the ExpressJS package
 5. Create a `CHANGELOG.md` file
 6. Describe the project in a `README.md` file
 
@@ -29,7 +29,7 @@ In result, you will achieve creation a documented project on NodeJS of a simple 
 
 ## 1. Start a project
 
-**Note!** Don't put spaces (` `) ether in folder names ether in file names. Otherwise, you will have to use escaping characters when navigating to them. Use "kebab-case" naming convention by separating words with dashes (`-`).
+**Note!** Don't put spaces (` `) in folder names or in file names. Otherwise, you will have to use escaping characters when navigating to them. Use the "kebab-case" naming convention by separating words with dashes (`-`).
 
 1. Using **CLI bash commands** in your terminal (Terminal or Git Bash) navigate to the directory where you will store your project folder.
 
@@ -61,7 +61,7 @@ git init
 
 ## 2. Initialize a NodeJS package
 
-1. Initialize a NodeJS package running this command:
+1. Initialize a NodeJS package by running this command:
 
 ```bash
 npm init -y
@@ -82,15 +82,15 @@ npm run test
 npm test
 ```
 
-It will run the bash script `echo \"Error: no test specified\" && exit 1` defined in the `package.json` file, what outputs the string `Error: no test specified` to stdout.
+It will run the bash script `echo \"Error: no test specified\" && exit 1` defined in the `package.json` file, then outputs the string `Error: no test specified` to stdout.
 
 ## 3. Create a NodeJS script 
 
-Now, we start using a text editor or IDE (Atom, VS Code, WebStorm or up to your choice). 
+Now, we start using a text editor or IDE of your choice (Atom, VS Code, WebStorm). 
 
 1. Open a project folder in your editor.
 
-You also can use bash commands for opening it. Being under the root of the project directory, run one of the command:
+You also can use bash commands to open it. From the project's root directory, run one of the commands:
 
 ```bash
 # For Atom
@@ -115,7 +115,7 @@ node index.js
 
 It will print the message `Hello NodeJS!`.
 
-4. Define this command as a NPM script. Modify in the `package.json` file like this:
+4. Define this command as a NPM script. Modify the `package.json` file like this:
 
 ```json
 ...
@@ -134,7 +134,7 @@ npm run start
 npm start
 ```
 
-It will do the same like in the step 2.
+It will do the same as in the step 2.
 
 ## 4. Create a web application using ExpressJS package
 
@@ -144,9 +144,9 @@ It will do the same like in the step 2.
 npm install express
 ```
 
-It will install the package files and its dependencies sourced on GitHub to you project directory inside `node_modules` folder.
+It will install the package files and its dependencies sourced on GitHub to you project directory inside the `node_modules` folder.
 
-Also, this command will add a dependency to you `package.json` like:
+Also, this command will add a dependency to your `package.json` like:
 
 ```json
 ...
@@ -154,9 +154,9 @@ Also, this command will add a dependency to you `package.json` like:
     "express": "^4.17.1"
   }
 ...  
-``` 
+```
 
-It is a NodeJS (actually NPM) "feature" to let developers install all the necessary packages for the current project using just one single command, instead of installing each package repeating such a command like `npm install PACKAGE_NAME`. You can experiment it by removing the entire `node_modules` folder and running the `npm install` command.
+It is a NodeJS (actually NPM) "feature" to let developers install all the necessary packages for the current project using just one single command, instead of installing each package repeating such a command like `npm install <PACKAGE_NAME>`. You can experiment it by removing the entire `node_modules` folder and running the `npm install` command.
 
 2. Modify the `index.js` file with the following content:
 
@@ -197,13 +197,13 @@ module.exports = app.listen(port, (err) => {
 - Initialize a project
 ```
 
-Since now, when working on the project you will be constantly update it. 
+Starting now, when working on the project you will be constantly updating it. 
 
 ## 6. Describe the project in a `README.md` file
 
 You may take an inspiration what to write in a `README.md` file from any [Adaltas projects on GitHub](https://github.com/adaltas/), where the best practices for writing such a file are followed.
 
-Also you can refer to [this documentation](https://www.makeareadme.com/) to learn more.
+Also, you can refer to [this documentation](https://www.makeareadme.com/) to learn more.
 
 1. Create a `README.md` file and describe the project with an information such as:
   

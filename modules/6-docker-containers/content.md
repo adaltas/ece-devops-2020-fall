@@ -12,7 +12,7 @@
 ## What are containers?
 
 - Standardized unit of software that allows developers to isolate their application from its environment.
-- Packages code and all its dependencies, so the application runs quickly and reliably from one computing environment to another.
+- Packages code and all its dependencies, so that the application runs quickly and reliably from one computing environment to another.
 - Container platforms:   
   - **Docker**
   - LXC (Linux Containers)
@@ -76,8 +76,8 @@ Docker objects are available to be observed and controlled using the command `do
 ## CLI commands
 
 - `docker help` - explore commands
-- `docker ps` - list runnig containers
-- `docker run <CONTAINER_NAME>` - list runnig containers
+- `docker ps` - list running containers
+- `docker run <CONTAINER_NAME>` - list running containers
 - `docker container` - manage containers
 - `docker image` - manage images
 - `docker volume` - manage volumes
@@ -163,13 +163,13 @@ A three-step process:
 
 1. Define your app’s environment with a `Dockerfile` so it can be reproduced anywhere.
 2. Define the services that make up your app in `docker-compose.yml` so they can be run together in an isolated environment.
-3. Run docker-compose up and Compose starts and runs your entire app.
+3. Run `docker-compose up` and Compose starts and runs your entire app.
 
 ## Docker Compose example
 
 Installing Wordpress website.
 
-```
+```yaml
 version: '3.3'
 
 services:

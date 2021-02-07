@@ -8,7 +8,7 @@
 
 ## Before starting
 
-Before you can start the lab, you have to:
+Before starting the lab, you have to:
 
 1. Install [Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) following the instructions depending on your OS.
 
@@ -39,7 +39,7 @@ References:
 - `emptyDir` usage - https://kubernetes.io/docs/concepts/storage/volumes/#emptydir
 - Nginx Docker image usage - https://hub.docker.com/_/nginx
 
-**Hint.** Nginx will start an HTTP web server and respond with a content of HTML files located in `/usr/share/nginx/html` directory.
+**Hint.** Nginx will start an HTTP web server and respond with the content of HTML files located in `/usr/share/nginx/html` directory.
 
 2. Run a pod applying configuration:
 
@@ -61,11 +61,11 @@ Enter to the container:
 kubectl exec -it <POD_NAME> bash
 ```
 
-Run `curl localhost` (or `curl localhost/index.html`, because by default of Nginx it will point to `index.html` if you not specify what the file name)
+Run `curl localhost` (or `curl localhost/index.html`, because by default of Nginx will point to `index.html` if you do not specify the filename)
 
 It will output the page of the 403 error if there is no `index.html` file to respond with:
 
-```
+```html
 <html>
 <head><title>403 Forbidden</title></head>
 <body>
@@ -77,7 +77,7 @@ It will output the page of the 403 error if there is no `index.html` file to res
 
 Or it outputs the content of the file `index.html` if there is one:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -123,14 +123,14 @@ Hello from Kubernetes storage!
 - When a **Pod is removed** from a node for any reason, the data in the `emptyDir` is deleted forever.   
   You can remove a pod using Kubernetes Dashboard that is started with `minikube dashboard` command or `kubectl delete pod/<POD_NAME>`.
 
-- When **container in a Pod is removed**, Kubernetes will create a new container and will mount existing `emptyDir` volume to it.   
+- When a **container in a Pod is removed**, Kubernetes will create a new container and will mount existing `emptyDir` volume to it.   
   Learn the Container ID with the command `kubectl describe pod/<POD_NAME>`. Then you can enter to Minikube Node with `minikube ssh` and manually remove the container with `docker rm -f CONTAINER_ID`.
 
 ## 2. Use `hostPath` storage
 
 1. Complete the [`assets/hostPath/deployment.yml`](assets/hostPath/deployment.yml) file.
 
-Use `/mnt/hostPath/` folder as path on your virtual node file system.
+Use `/mnt/hostPath/` folder as the path on your virtual node file system.
 
 References:
 - `hostPath` usage - https://kubernetes.io/docs/concepts/storage/volumes/#hostpath
@@ -145,7 +145,7 @@ Ensure that `curl localhost` responds with 403 error (step 3 in the previous tas
 
 3. Create `/mnt/hostPath/index.html` file with some content **inside a VM**
 
-Enter to VM with `minikube ssh` command. Then run:
+Enter the VM with `minikube ssh` command. Then run:
 
 ```
 sudo mkdir /mnt/hostPath
@@ -163,13 +163,13 @@ Hello from Kubernetes storage!
 
 4. Verify
 
-- When a **Pod is removed** from a node for any reason, the data in the `hostPath` still remain.
+- When a **Pod is removed** from a node for any reason, the data in the `hostPath` will still remain.
 - When multiple replicas of a **Pod** are created, they all bind to the same volume.   
   You can configure a number of replicas using `spec.replicas` parameter in the deployment configuration yaml file.
 
 ## 3. Use PersistentVolume
 
-Reference to this tutorial and reproduce all the steps - https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
+Reference to this tutorial and reproduce all of the steps - https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
 
 ## Bonus tasks
 

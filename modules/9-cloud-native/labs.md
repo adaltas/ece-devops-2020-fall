@@ -29,7 +29,7 @@ Do everything until [Next steps](https://istio.io/docs/setup/getting-started/#ne
 
 **Results:**
 
-- running [Bookinfo example application](https://istio.io/docs/examples/bookinfo/) and available at `http://$GATEWAY_URL/productpage` (where $GATEWAY_URL - is specific IP and PORT for every deployment)
+- running [Bookinfo example application](https://istio.io/docs/examples/bookinfo/) and available at `http://$GATEWAY_URL/productpage` (where $GATEWAY_URL - is the specific IP and PORT for every deployment)
 - running [Kiali dashboard](https://kiali.io/) with an overview of your mesh with the relationships between the services
 
 ![Kiali dashboard](image/kiali-example2.png)

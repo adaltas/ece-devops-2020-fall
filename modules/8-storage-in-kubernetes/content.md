@@ -8,7 +8,7 @@
 ## Kubernetes Volumes
 
 - has an explicit lifetime - the same as the Pod that encloses it
-- a volume outlives any Containers that run within the Pod
+- a volume outlives any Container that runs within the Pod
 - when a Pod ceases to exist, the volume will cease to exist, too. 
 - Kubernetes supports many types of volumes, and a Pod can use any number of them simultaneously.
 
@@ -20,7 +20,7 @@
 
 ## Volume type: emptyDir
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -39,7 +39,7 @@ spec:
 
 ## Volume type: awsElasticBlockStore
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -64,13 +64,13 @@ spec:
 
 Provides an API for users and administrators that abstracts details of how storage is provided from how it is consumed.
 
-have a lifecycle independent of any individual Pod that uses the PV
+have a life cycle independent of any individual Pod that uses the PV
 
 2 parts:
 
 1. **PersistentVolumeClaim (PVC)** - a request for storage **by a user**.
 
-```
+```yaml
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -82,9 +82,9 @@ spec:
   ...
 ```
 
-2. **PersistentVolume (PV)** - a piece of storage in the cluster that has been **provisioned by an administrator**. It has a lifecycle independent of any individual Pod that uses the PV.
+2. **PersistentVolume (PV)** - a piece of storage in the cluster that has been **provisioned by an administrator**. It has a life cycle independent of any individual Pod that uses the PV.
 
-```
+```yaml
 apiVersion: v1
 kind: PersistentVolume
 metadata:

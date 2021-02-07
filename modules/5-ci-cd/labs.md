@@ -12,13 +12,13 @@ It is required to have an example application with automated tests. It is sugges
 
 ## 1. CI part - using Travis CI
 
-1. Go to [travis-ci.com](https://travis-ci.com/) and sing up with GitHub account
+1. Go to [travis-ci.com](https://travis-ci.com/) and sign up with a GitHub account
 
-2. Sync GitHub account with Travis CI account
+2. Sync your GitHub account with Travis CI account
 
 3. Create `.travis.yml` configuration file under the root of your project repo:
 
-```
+```yaml
 language: node_js
 node_js:
 - '12'
@@ -34,7 +34,7 @@ script:
 
 And push it to the remote master.
 
-5. Practice a regular workflow of software development life cycle. Create a pull request to `master` branch:
+5. Practice a regular workflow of the software development life cycle. Create a pull request to `master` branch:
 
 - create a new branch and publish it to your remote GitHub repository
 - make any change in you source code, commit and push it
@@ -57,7 +57,7 @@ Under the "Deploy tab":
 
 3. Add Redis service to Heroku deployment - https://elements.heroku.com/addons/heroku-redis
 
-**Note!** Redis service on Heroku is free, but it requires adding credit card information. Considering this limitation we will not run Redis on Heroku, and the application will be partially not working (it will print the "Hello world!" message on the home page, but the user API will not work). However, it will be enough to experience our CI/CD pipeline.
+**Note!** Redis service on Heroku is free, but it requires adding credit card information. Considering this limitation we will not run Redis on Heroku, and the application will be partially non-functional (it will print the "Hello world!" message on the home page, but the user API will not work). However, it will be enough to experience our CI/CD pipeline.
 
 4. Configure `.travis.yml` with Heroku
 
@@ -78,7 +78,7 @@ travis setup heroku
 
 After that in the `.travis.yml` will be appended something like:
 
-```
+```yaml
 deploy:
   provider: heroku
   api_key:

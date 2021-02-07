@@ -1,6 +1,6 @@
 # Source Control Management (SCM)
 
-Source control management (or an interchangeable term "version control") has made the surge of collaborative work and the increasingly rapid delivery of software. It is now standard in software development maintaining a single source of truth for development teams, what allows multiple developers to work on the same codebase. Git, as a leader outclassing other SCM tools, is obligatory to be mastered for everyone who involved in software development process.
+Source control management (or an interchangeable term "version control") has made a surge of collaborative work and software delivery increasingly rapid. It is now standard in software development to maintain a single source of truth for development teams, which allows multiple developers to work on the same codebase. Git, as a leader outclassing other SCM tools, is obligatory to be mastered for everyone involved in software development processes.
 
 ## Duration
 
@@ -9,7 +9,7 @@ Source control management (or an interchangeable term "version control") has mad
 ## Covered topics
 
 - SCM purposes
-- Git usages and organisation
+- Git usages and organization
 - Open Source community management with GitHub
 - Project management with GitLab
 

@@ -4,7 +4,7 @@ Infrastructure as code
 
 ## Objectives
 
-This workshop can be done **on your own, or in groups of 2/3 people**.
+This workshop can be done **on your own, or in groups of 2-3 people**.
 
 1. Part 1 - Using Vagrant with Shell Provisioner
 2. Part 2 - GitLab installation using Vagrant and Ansible Provisioner
@@ -133,7 +133,7 @@ vagrant provision
 
 ## Part 2 - GitLab installation using Vagrant and Ansible Provisioner 
 
-We will install Gitlab on CentOS as described in [the official documentation](https://about.gitlab.com/install/#centos-7). You can try repeat those steps manually one after another on the VM configured in the part 1 of the lab. Usually, when we are installing first time a new software on a testing environment we do it manually to test each step and then, after clarifying all the installation process we automatize it using tools like Vagrant and Ansible. 
+We will install Gitlab on CentOS as described in [the official documentation](https://about.gitlab.com/install/#centos-7). You can try repeat those steps manually one after another on the VM configured in the part 1 of the lab. Usually, when we are installing first time a new software on a testing environment, we do it manually to test each step and then, after clarifying all the installation process we automatize it using tools like Vagrant and Ansible. 
 
 We will use [`ansible_local` provisioner](https://www.vagrantup.com/docs/provisioning/ansible_local.html) what will install Ansible on [CentOS 7](https://www.centos.org/) Linux distribution virtual machine by [Vagrant](https://www.vagrantup.com/). So, you don't need Ansible on your host OS!
 

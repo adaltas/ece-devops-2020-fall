@@ -1,6 +1,6 @@
 # Infrastructure as code (IaC)
 
-## Requirement of automatisation
+## Requirement of automation
 
 - Increasingly crucial to automate   
   Applications can be deployed up to hundreds of times per day
@@ -38,12 +38,12 @@ CLI along with a bash script like:
   - when you need to scale it up or down you need to write custom scripts
   - doesn't scale well
   - if you run multiple times, it will create each time
-  - you have to add error handling when one of the steps halfway failed
+  - you have to add error handling when one of the steps fails halfway 
 
 ## Declarative approach
 
 - Define the final state of your infrastructure
-- It lets the provider to handle the rest
+- It lets the provider handle the rest
 - managed through simple config maps
 
 ```
@@ -58,8 +58,8 @@ vpc resource
 
 **Advantages:**
 
-- no mater how many times you run the script you end up with the same infrastructure
-  example: run later to insure the infra hasn't changed
+- no matter how many times you run the script you end up with the same infrastructure
+  example: run later to ensure the infrastructure hasn't changed
 
 ## Implementation in DevOps 
 
@@ -86,10 +86,10 @@ With IaC (best approach):
 - and scale it 1000 times
 
 **Mutable approach** - environment (configuration) drift
-  Move the infra from V1 to V2 with a mutation **custom script**
+  Move the infrastructure from V1 to V2 with a mutation **custom script**
   
   - 99% it is working, but 1% failing in a limbo state
-  - existing environment no longer matching what we have in our automation automation
+  - existing environment no longer matching what we have in our automation
   - to debug you would have to:   
     - wipe out the entire environment
     - redeploy V1
@@ -97,9 +97,9 @@ With IaC (best approach):
   - when moving to scale it becomes incredibly hard to maintain
 
 **Immutable approach** - a new environment alongside the old one
-  - when they both working you bring down the older version
+  - when they are both working you bring down the older version
   - it is expensive (V1 and V2 are running at the same time)
-  - but it's a best practice to ensure that your infra can move to scale
+  - but it's a best practice to ensure that your infrastructure can scale
 
 ## Managing development virtual environment with Vagrant
 
@@ -119,7 +119,7 @@ Benefits:
 - **host** and **guest** machines 
 - **Vagrantfile** - configuration (on Ruby)
 - **Box** - OS and version
-- **Providers** - VM hipervisor (VirtualBox, VMware, libvirt)
+- **Providers** - VM hypervisor (VirtualBox, VMware, libvirt)
 - **Provisioners**:
   - shell
   - **Ansible**
@@ -132,7 +132,7 @@ Benefits:
 - `vagrant up` - Start and provision VM
 - `vagrant destroy` - Destroy VMs
 - `vagrant status` - Check VMs status
-- `vagrant ssh VM_NAME` - SSH as the vagrant user
+- `vagrant ssh <VM_NAME>` - SSH as the vagrant user
 - `vagrant halt` - stop the VMs
 
 ## Vagrant Provisioners
@@ -153,7 +153,7 @@ Ansible is a **automation engine** that automates:
   
 **Advantages:**
 
-  - no-agent to install on machines, only SSH only
+  - no-agent to install on machines, SSH only
   - write configuration (playbooks) on YAML - easy to learn
   
 ## Ansible components
