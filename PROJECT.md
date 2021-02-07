@@ -2,7 +2,9 @@
 
 ## Deadline
 
-**December 20, 2020**
+The deadline was extended from 20 to 23 of December.
+
+**December 23, 2020**
 
 ## Opportunities
 
@@ -38,8 +40,7 @@ Configure and apply CI/CD (including deployment) pipeline using any platforms (G
 2. Provision the VM with Ansible, that includes installing and running:
   - language runtime
   - database
-  - Git (optional, if you choose to clone the repository from GitHub/GitLab, you have to set up ssh forwarding because of private repository)
-  - your application (clone from GitHub/GitLab, or copy local source files to a VM, or [sync folders](https://www.vagrantup.com/docs/synced-folders))
+  - your application (use [sync folders](https://www.vagrantup.com/docs/synced-folders))
   - health check of your application
 
 ### 4. Build Docker image of your application
@@ -151,6 +152,7 @@ After you have sent the invitation, send an email to [sergei@adaltas.com](mailto
 | Infrastructure as code using Ansible                            |   IAC     |    +4     |
 | Accurate project documentation in README.md file                |   DOC     |    +3     |
 | Each bonus tasks                                                |   BNS     |    +1     |
+| Each penalty                                                    |   PNL     |    -1     |
 
 It is also taken into account:
 
